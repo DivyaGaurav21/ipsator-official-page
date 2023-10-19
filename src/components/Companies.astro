@@ -1,0 +1,33 @@
+---
+import { companyImages } from "../helper/staticData";
+---
+<h1 class="text-center md:text-2xl font-bold text-animation">Companies we have worked with</h1>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 w-full md:w-[80%] m-auto">
+    {companyImages.map((image) => (
+      <img
+        src={image.imgSrc}
+        alt={`Company ${image.id}`}
+        class="w-full h-auto"
+      />
+    ))}
+  </div>
+
+  <style>
+    @keyframes textAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.text-animation{
+  animation-name: textAnimation;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+  </style>

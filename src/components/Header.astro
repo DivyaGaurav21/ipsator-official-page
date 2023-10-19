@@ -1,0 +1,55 @@
+---
+import { Image } from "astro:assets";
+import Logo from "../images/Ipsator_logo.svg"
+---
+
+
+<header class="bg-slate-100 p-4 text-white">
+   <div class="w-full md:w-[90%] m-auto flex justify-between items-center">
+    <div class="flex items-center">
+        <a href="/">
+           <Image src={Logo} alt="Logo" class="w-24 h-10" />
+        </a>
+       </div>
+       <nav class="hidden lg:block">
+         <ul class="flex space-x-4 text-slate-800 text-light font-semibold">
+           <li>
+             <a href="/">Home</a>
+           </li>
+           <li>
+             <a href="/services">Services</a>
+           </li>
+           <li>
+             <a href="/blog">Blog</a>
+           </li>
+           <li>
+             <a href="/work">Our Work</a>
+           </li>
+           <li>
+             <a href="/careers">Careers</a>
+           </li>
+           <li>
+             <a href="/about">About Us</a>
+           </li>
+         </ul>
+           </nav>
+         <div class=" hidden lg:block">
+           <a href="/contact" class="bg-transparent hover:bg-white text-red-500 border font-medium border-red-600 px-4 py-2 rounded-full">
+             CONTACT US
+           </a>
+         </div>
+   </div>
+  </header>
+
+  <style>
+ul.text-light li a {
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+ul.text-light li a:hover {
+  border-color: #000000;
+}
+
+  </style>
