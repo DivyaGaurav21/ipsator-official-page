@@ -1,0 +1,46 @@
+---
+import MobileAnim from "../helper/MobileAnim";
+
+---
+
+<div class="w-full md:w-[88%] max-h-[60vh] mx-auto rounded-lg overflow-hidden shadow-xl bg-gradient-to-r from-red-700 to-slate-700">
+    <div class="flex flex-col md:flex-row">
+        <div class="w-full max-h-[60vh] md:w-1/2 flex justify-center items-center">
+         <MobileAnim client:load/>
+        </div>
+        
+        <div class="w-full md:w-1/2 flex justify-center flex-col items-center py-5">
+            <h5 class="text-3xl font-bold text-slate-100">
+                Like what you’re seeing?
+            </h5>
+            <p class="mb-2 text-center text-yellow-200 sm:text-lg">
+                Reach out to us, let’s start something awesome!
+            </p>
+            <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                <a
+                    href="#"
+                    class="w-full md:w-auto inline-flex items-center justify-center rounded-lg bg-orange-500 px-4 py-2.5 text-white hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-gray-300"
+                >
+                    <div class="text-left">
+                        <div class="mb-1 text-xs">Download on the</div>
+                        <div class="-mt-1 text-sm font-semibold">Mac App Store</div>
+                    </div>
+                </a>
+                <a
+                    href="#"
+                    class="w-full md:w-auto inline-flex items-center justify-center rounded-lg  bg-orange-500  px-4 py-2.5 text-white hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-gray-300"
+                >
+                    <div class="text-left">
+                        <div class="mb-1 text-xs">Get in on</div>
+                        <div class="-mt-1 text-sm font-semibold">Google Play</div>
+                    </div>
+                </a>
+            </div>
+            <img
+                src="https://carbon-v2.ipsator.com/static/images/fot-oneplus-7-q-auto.png"
+                alt="pop_img"
+                class="object-contain m-auto"
+            />
+        </div>
+    </div>
+</div>

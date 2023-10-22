@@ -90,3 +90,38 @@ export const servicesData = [
         paragraph: "Want to move fast while not breaking things? We help you with tooling, versioning and branching strategies, and confident releases. The solutions designed are scalable both horizontally and vertically."
     },
 ]
+
+export const workDetail = [
+    {
+        id: 1,
+        imgsrc: "https://neon.ipsator.com/c/image/upload/bo_50px_solid_rgb:ffffff,c_scale,f_auto,h_200,r_0,w_200/v1587532663/ipsator_com/company_logos/irctc-logo.png",
+        title: 'IRCTC eCatering App',
+        stack: ['UI/UX Design', 'Mobile Development', 'Web Development'],
+        workDetail: "Turning train journeys from ‘events’ to ‘moments'. Building tech to deliver food on the train. #LastMinuteDelivery #KhushiyonKiTrainDelivery",
+        link: 'https://www.ecatering.irctc.co.in/'
+    },
+    {
+        id: 2,
+        imgsrc: "https://neon.ipsator.com/c/image/upload/bo_50px_solid_rgb:ffffff,c_scale,f_auto,h_200,r_0,w_200/v1587532663/ipsator_com/company_logos/irctc-logo.png",
+        title: 'IRCTC Partners App',
+        stack: ['UI/UX Design', 'Mobile Development'],
+        workDetail: "Empowers IRCTC partners to serve hot and tasty food to customers.#LastMinuteDelivery #KhushiyonKiTrainDelivery",
+        link: 'https://play.google.com/store/apps/details?id=com.irctc.fot.vendor'
+    },
+    {
+        id: 3,
+        imgsrc: "https://neon.ipsator.com/c/image/upload/bo_10px_solid_rgb:ffffff,c_lpad,f_auto,h_86,w_86/v1586001930/ipsator_com/company_logos/ge.png",
+        title: 'GE Meri Sakhi',
+        stack: ['UI/UX Design', 'Mobile Development'],
+        workDetail: "An app to enable anganwadi workers to educate rural women to be health aware.",
+        link: 'https://play.google.com/store/apps/details?id=com.ipsator.ge.merisakhiapp'
+    },
+    {
+        id: 1,
+        imgsrc: "https://neon.ipsator.com/c/image/upload/bo_10px_solid_rgb:ffffff,c_lpad,f_auto,h_86,w_86/v1587533030/ipsator_com/company_logos/levis.png",
+        title: 'Customer Insights Platform',
+        stack: ['UI/UX Design', 'Mobile Development', 'Web Development'],
+        workDetail: "Trusted by brick and mortar stores for getting useful and actionable insights from feedback, driving timely actions.",
+        link: 'https://www.ecatering.irctc.co.in/'
+    },
+]
