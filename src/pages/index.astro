@@ -7,6 +7,7 @@ import Footer from "../components/Footer.astro";
 import OurWork from "../components/OurWork";
 import { workDetail } from "../helper/staticData";
 import Popup from "../components/Popup.astro";
+import Comment from "../components/Comment";
 ---
 
 <Layout title="Ipsator Analystics">
@@ -15,7 +16,6 @@ import Popup from "../components/Popup.astro";
 	<Companies/>
 	<Popup/>
 	<OurWork client:load workDetail={workDetail}/>
+	<Comment client:load/>
 	<Footer/>
 </Layout>
-
-../components/OurWork

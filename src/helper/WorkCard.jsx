@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkCard = ({ work }) => {
     return (
-        <div className="bg-gradient-to-br from-red-400 via-slate-500 to-red-600 shadow-lg rounded-lg overflow-hidden m-4 flex-grow">
+        <div className="bg-gradient-to-br from-red-400 via-neutral-400 to-red-600 shadow-lg rounded-lg overflow-hidden m-4 flex-grow w-96">
             <div className="p-4">
                 <div className="flex justify-between items-center mb-4">
                     <div className="flex items-center">
@@ -21,16 +21,15 @@ const WorkCard = ({ work }) => {
                     >
                         View Project
                     </a>
-
                 </div>
                 <div className="mb-4">
-                    <p className="text-gray-100">{work.workDetail}</p>
+                    <p className="text-white font-bold">{work.workDetail}</p>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
                     {work.stack.map((stackItem, index) => (
                         <div
                             key={index}
-                            className="bg-red-200 rounded-md py-1 text-center text-red-800"
+                            className="bg-red-100 rounded-md py-1 text-center text-red-800"
                         >
                             {stackItem}
                         </div>

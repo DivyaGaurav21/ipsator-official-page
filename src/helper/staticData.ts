@@ -125,3 +125,34 @@ export const workDetail = [
         link: 'https://www.ecatering.irctc.co.in/'
     },
 ]
+
+export const peopleFeedback = [
+    {
+        id: 1,
+        name: "Yogesh Jakhotia",
+        role: "VP Sales, Faasos",
+        comment: "IRCTC eCatering is a project that is a very unique concept. It is many times more challenging than the home and office food delivery because of moving the target where the passenger is travelling in the train. Ipsator's tech backbone helps us run this function smoothly as a partner. The team constantly strives to turn difficult tasks into reality by using technology, data, and processes. We are easily able to add new brands,turn on new stations, and scale-up offerings. They are a very reliable group of people, always coming up with new ideas to find solutions.",
+        imgSrc: "https://neon.ipsator.com/c/image/upload/c_scale,f_auto,r_53,w_106/v1587530874/ipsator_com/people/yogesh-jakhotia-faasos.jpg"
+    },
+    {
+        id: 2,
+        name: "Ashok Sharma",
+        role: "SM - Payments, PayTM",
+        comment: "Paytm has been a pioneer in mobile payments for people on the move. IRCTC eCatering is a novel project that allows passengers to order food on the go from their train seats. The technology architecture, APIs, microservices, scheduling mechanisms built by the Ipsator team make it easy for the Paytm system to be well integrated in IRCTC eCatering. This allows passengers to easily make frictionless payments on the go. Our business/operations teams also work closely with the Ipsator operations team for serving the passengers. We look forward to grow this segment with them.",
+        imgSrc: "https://neon.ipsator.com/c/image/upload/c_scale,f_auto,r_53,w_106/v1587530874/ipsator_com/people/ashok-sharma-paytm.jpg"
+    },
+    {
+        id: 3,
+        name: "Akanksha Kapoor",
+        role: "Program Manager, GE Healthcare",
+        comment: "GE Healthcare partnered with Ipsator to develop an app for use by community health workers in Tier 2/3 towns in India. This was a difficult task as the app design had to be such that it was easily accessible to users with limited digital literacy, and in remote locations without strong network. Ipsator was efficiently and promptly able to deliver a tool that was easily adopted by the participants. They were also able to turn around the work very quickly and fully incorporating revisions as requested from time to time. Their support post delivery was also commendable – as due to the nature of the geographies and user base for this tool, support was sometimes complex.",
+        imgSrc: "https://neon.ipsator.com/c/image/upload/c_lpad,f_auto,h_106,w_106/v1586001930/ipsator_com/company_logos/ge.png"
+    },
+    {
+        id: 4,
+        name: "Ranjeet Singh",
+        role: "Customer Experience, Travel Food Services",
+        comment: "Ipsator has been really helpful, we appreciate their quick and consistent support. These guys are the best! Keep up the great work! we're grateful for their swift and dependable assistance. These experts are top-notch! We can't thank them enough for their outstanding support. It's always a pleasure to work with such a fantastic team. Keep up the great work!  Ipsator was efficiently and promptly able to deliver a tool that was easily adopted by the participants",
+        imgSrc: "https://neon.ipsator.com/c/image/upload/bo_2px_solid_rgb:000000,c_scale,f_auto,r_53,w_102/v1587530960/ipsator_com/company_logos/tfs.jpg"
+    }
+]
