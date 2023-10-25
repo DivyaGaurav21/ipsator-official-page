@@ -1,11 +1,24 @@
-import React, { useState } from 'react';
-import WorkCard from '../helper/WorkCard'
-
-
+import React, { useEffect, useState } from 'react';
+import WorkCard from '../helper/WorkCard';
 
 const OurWork = ({ workDetail }) => {
     const [currentPage, setCurrentPage] = useState(0);
-    const itemsPerPage = 2;
+    const [itemsPerPage, setItemsPerPage] = useState(2);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 768) {
+                setItemsPerPage(1);
+            } else {
+                setItemsPerPage(2);
+            }
+        };
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const handleClickNext = () => {
         setCurrentPage((prevPage) => prevPage + 1);
@@ -34,15 +47,15 @@ const OurWork = ({ workDetail }) => {
                 <button
                     onClick={handleClickNext}
                     disabled={endIndex >= workDetail.length}
-                    className="mx-2  py-2 px-4 text-2xl rounded bg-red-500 text-white hover:bg-red-900 disabled:bg-gray-300"
+                    className="mx-2 py-2 px-4 text-2xl rounded bg-red-500 text-white hover:bg-red-900 disabled:bg-gray-300"
                 >
                     <i className="fa-solid fa-circle-right"></i>
                 </button>
             </div>
-            <div className="container mx-auto py-5 flex flex-col md:flex-row">
-                {visibleWorkDetails.map((work) => (
+            <div className="container mx-auto py-5 gap-1 flex flex-col md:flex-row">
+                {visibleWorkDetails.map((work) => 
                     <WorkCard key={work.id} work={work} />
-                ))}
+                )}
             </div>
         </div>
     );

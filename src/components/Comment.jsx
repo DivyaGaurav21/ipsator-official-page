@@ -17,6 +17,7 @@ import CommentCard from '../helper/CommentCard';
 export default function Comment() {
     return (
         <>
+            <h1 className='text-center font-bold text-2xl'>What people say about us</h1>
             <Swiper
                 slidesPerView={1}
                 centeredSlides={false}
@@ -36,6 +37,7 @@ export default function Comment() {
                 pagination={{
                     clickable: true,
                 }}
+                spaceBetween={100}
                 modules={[Keyboard, Navigation, Pagination]}
                 className="mySwiper mt-20"
                 style={{ height: '70vh', width: '85%', paddingBottom: "25px", }}
@@ -47,15 +49,6 @@ export default function Comment() {
                         </SwiperSlide>
                     )
                 }
-                {/* <SwiperSlide>
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
-                </SwiperSlide> */}
             </Swiper>
         </>
     );

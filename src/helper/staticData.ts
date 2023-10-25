@@ -138,14 +138,14 @@ export const peopleFeedback = [
         id: 2,
         name: "Ashok Sharma",
         role: "SM - Payments, PayTM",
-        comment: "Paytm has been a pioneer in mobile payments for people on the move. IRCTC eCatering is a novel project that allows passengers to order food on the go from their train seats. The technology architecture, APIs, microservices, scheduling mechanisms built by the Ipsator team make it easy for the Paytm system to be well integrated in IRCTC eCatering. This allows passengers to easily make frictionless payments on the go. Our business/operations teams also work closely with the Ipsator operations team for serving the passengers. We look forward to grow this segment with them.",
+        comment: "Paytm has been a pioneer in mobile payments for people on the move. IRCTC eCatering is a novel project that allows passengers to order food on the go from their train seats. The technology architecture, APIs, microservices, scheduling mechanisms built by the Ipsator team make it easy for the Paytm system to be well integrated in IRCTC eCatering. This allows passengers to easily make frictionless payments on the go. Our business/operations teams also work closely with the Ipsator.",
         imgSrc: "https://neon.ipsator.com/c/image/upload/c_scale,f_auto,r_53,w_106/v1587530874/ipsator_com/people/ashok-sharma-paytm.jpg"
     },
     {
         id: 3,
         name: "Akanksha Kapoor",
         role: "Program Manager, GE Healthcare",
-        comment: "GE Healthcare partnered with Ipsator to develop an app for use by community health workers in Tier 2/3 towns in India. This was a difficult task as the app design had to be such that it was easily accessible to users with limited digital literacy, and in remote locations without strong network. Ipsator was efficiently and promptly able to deliver a tool that was easily adopted by the participants. They were also able to turn around the work very quickly and fully incorporating revisions as requested from time to time. Their support post delivery was also commendable – as due to the nature of the geographies and user base for this tool, support was sometimes complex.",
+        comment: "GE Healthcare partnered with Ipsator to develop an app for use by community health workers in Tier 2/3 towns in India. This was a difficult task as the app design had to be such that it was easily accessible to users with limited digital literacy, and in remote locations without strong network. Ipsator was efficiently and promptly able to deliver a tool that was easily adopted by the participants. They were also able to turn around the work very quickly and fully incorporating revisions as requested from time to time.",
         imgSrc: "https://neon.ipsator.com/c/image/upload/c_lpad,f_auto,h_106,w_106/v1586001930/ipsator_com/company_logos/ge.png"
     },
     {

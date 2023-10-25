@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkCard = ({ work }) => {
     return (
-        <div className="bg-gradient-to-br from-red-400 via-neutral-400 to-red-600 shadow-lg rounded-lg overflow-hidden m-4 flex-grow w-96">
+        <div className="bg-gradient-to-br from-red-400 via-neutral-400 to-red-600 shadow-lg rounded-lg overflow-hidden m-4 flex-grow w-[95%] min-h-[35vh] mx-auto">
             <div className="p-4">
                 <div className="flex justify-between items-center mb-4">
                     <div className="flex items-center">
