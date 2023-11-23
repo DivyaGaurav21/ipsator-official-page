@@ -1,3 +1,45 @@
+# Ipsator Offical Page (ipsator.com)
+### Tech Stack Used : (Astro  + Tailwind CSS + React-plugin + Swiper JS)
+ ## Objectives:
+  - make ipsator.com offcial homePage
+  - use some animation and swiper
+### Application
+
+- HERO ANIMATED SECTION
+
+![homePage](https://res.cloudinary.com/ecom-next/image/upload/v1700768998/projectimg/b4yxmiees7ghhrrpxagd.png)
+
+- 
+
+![homePage](https://res.cloudinary.com/ecom-next/image/upload/v1700768999/projectimg/lrf9qmuljye041fupzag.png)
+
+- 
+
+![homePage](https://res.cloudinary.com/ecom-next/image/upload/v1700768999/projectimg/gvivreothq221yxzkomz.png)
+
+- 
+
+![homePage](https://res.cloudinary.com/ecom-next/image/upload/v1700768999/projectimg/thhya9xeedyh7kwc4mkc.png)
+
+- 
+
+![homePage](https://res.cloudinary.com/ecom-next/image/upload/v1700769000/projectimg/rbyxtunntqncpczttqep.png)
+
+
+## FOR RUNNING PROJECT IN YOUR SYSTEM DO
+      npm i
+      npm run dev
+
+## Authors
+
+- [@Divya Gauav]( https://divyagaurav.netlify.app/ )
+
+
+# Hi, I'm Divya gaurav👋Frontend Developer.
+
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
