@@ -64,7 +64,7 @@ const OurWork = ({ workDetail }) => {
                     disabled={endIndex >= workDetail.length}
                     className="mx-2 py-2 px-4 text-2xl rounded bg-red-500 text-white hover:bg-red-900 disabled:bg-gray-300"
                 >
-                    <i className="fa-solid fa-circle-right"></i>
+                    <i className="fa-regular fa-circle-right"></i>
                 </button>
             </div>
             {/* Container for displaying work details */}
