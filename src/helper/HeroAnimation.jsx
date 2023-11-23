@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import parrot from "../images/hero.json"
 
 
-const HeroAnim = () => {
+const HeroAnimation = () => {
     if (!parrot) {
         return <p>Error loading animation.</p>;
     }
@@ -12,4 +12,4 @@ const HeroAnim = () => {
     )
 }
 
-export default HeroAnim
+export default HeroAnimation

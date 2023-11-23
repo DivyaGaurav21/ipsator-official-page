@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import NavSection from "../components/NavSection"
 export interface Props {
 	title: string;
 }
@@ -17,8 +18,9 @@ const { title } = Astro.props as Props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
-		<Header/>
+	<body class="scroll-smooth">
+		<!-- <Header/> -->
+		<NavSection client:load/>
 		<slot />
 		<script src="https://kit.fontawesome.com/83b993c0e4.js"></script>
 	</body>
@@ -39,5 +41,4 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 </style>
-
 

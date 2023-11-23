@@ -1,22 +1,3 @@
-// <li>
-// <a href="/">Home</a>
-// </li>
-// <li>
-// <a href="/services">Services</a>
-// </li>
-// <li>
-// <a href="/blog">Blog</a>
-// </li>
-// <li>
-// <a href="/work">Our Work</a>
-// </li>
-// <li>
-// <a href="/careers">Careers</a>
-// </li>
-// <li>
-// <a href="/about">About Us</a>
-// </li>
-
 export const companyImages = [
     {
         id: 1,
